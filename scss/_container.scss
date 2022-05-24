@@ -1,0 +1,58 @@
+
+
+main{   
+        display: flex;
+        
+        justify-content:space-evenly;
+    .main-right{
+        margin-top: 100px;
+        img{
+            justify-content: right;
+            width: 500px;
+            height: 500px;
+            
+            
+            
+        }
+        
+    }
+    .main-left{
+        margin-top: 200px;
+        
+        .green{
+            color: $primary-color;
+            font-size: 4rem;
+            font-weight: $font-weight;
+            line-height: $line-height;
+            
+            
+            
+            
+        }
+        h1{
+            color: black;
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: $font-weight;
+            line-height: $line-height;
+            
+        }
+        h4{
+            font-size: 1.5rem;
+            line-height: 38px;
+        }
+        button{
+            @include button;
+            margin-top:20px;
+            background: linear-gradient(to left, $primary-color 50%, #FB4B4E 50%) right ;
+            background-size: 200%;
+            
+            transition: all .3s ease-out;
+        }button:hover{
+            background-position: left bottom;
+            
+
+
+        }
+    }
+}

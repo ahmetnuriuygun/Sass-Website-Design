@@ -1,0 +1,100 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  display: flex;
+  margin-top: 1rem;
+}
+nav li {
+  margin-top: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 16px;
+}
+nav :hover {
+  color: rgb(0, 204, 102);
+}
+nav button {
+  background-color: rgb(0, 204, 102);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 90px;
+  height: 35px;
+}
+nav button:hover {
+  background-color: #FB4B4E;
+  color: white;
+}
+nav .nav-left {
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 1px;
+  font-weight: 400;
+  font-size: 24;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .main-right {
+  margin-top: 100px;
+}
+main .main-right img {
+  justify-content: right;
+  width: 500px;
+  height: 500px;
+}
+main .main-left {
+  margin-top: 200px;
+}
+main .main-left .green {
+  color: rgb(0, 204, 102);
+  font-size: 4rem;
+  font-weight: 700px;
+  line-height: 77px;
+}
+main .main-left h1 {
+  color: black;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 77px;
+}
+main .main-left h4 {
+  font-size: 1.5rem;
+  line-height: 38px;
+}
+main .main-left button {
+  background-color: rgb(0, 204, 102);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 90px;
+  height: 35px;
+  margin-top: 20px;
+  background: linear-gradient(to left, rgb(0, 204, 102) 50%, #FB4B4E 50%) right;
+  background-size: 200%;
+  transition: all 0.3s ease-out;
+}
+main .main-left button:hover {
+  background-position: left bottom;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

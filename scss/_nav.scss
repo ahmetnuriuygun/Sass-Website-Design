@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    .nav-right{
+        
+    }ul{
+        list-style-type: none;
+        display: inline-block;
+        display: flex;
+        margin-top: 1rem;
+        // margin-right: 10rem;
+        
+        
+        
+    }li{
+        margin-top: 5px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 1rem;
+        font-weight: 400;
+        font-size: 16px;
+    }:hover{
+        color: $primary-color;
+    }
+    button{
+        @include button;
+
+    }button:hover{
+    background-color: #FB4B4E;
+    color: white;
+}
+    .nav-left{
+        position: relative;
+        margin-top: 1rem;
+        margin-left:1px;
+        
+        font-weight: 400;
+        font-size: 24;
+    }
+}
